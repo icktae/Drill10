@@ -10,7 +10,7 @@ def update():
             o.update()
 
 
-def remder():
+def render():
     for layer in objects:
         for o in layer:
             o.draw()
