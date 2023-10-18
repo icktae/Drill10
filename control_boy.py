@@ -29,13 +29,14 @@ def reset_world():
 
     running = True
 
-    grass = Grass()
+    grass = Grass(40)
     game_world.add_object(grass)
 
     boy = Boy()
     game_world.add_object(boy)
 
-
+    grass = Grass(20)
+    game_world.add_object(grass)
 
 def update_world():
     game_world.update()
